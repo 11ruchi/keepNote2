@@ -1,0 +1,130 @@
+.notes {
+    margin: 0 auto;
+    width: 50%;
+    margin-top : 10px;
+    margin-bottom : 10px;
+    border-style: solid;
+    border-width: 3px;
+    border-color:lightgray;
+  
+    
+}
+
+.mat-card,.mat-list .mat-list-item{
+    max-width: 100%;
+}
+.mat-card-actions, .mat-card-content, .mat-card-subtitle, .mat-card-title{
+    word-wrap: break-word;
+}
+.notes-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.label-style{
+    font-size: 20px;
+}
+
+.label-style-exp-header{
+    font-size: 25px;
+    color: #ea4335;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+.panel-tle{
+      text-align: center;
+      color: #4285f4;
+      font-size: 20px;
+      font-weight: bolder;
+}
+
+.d-block{
+    display: block;
+}
+
+.mat-list .mat-list-item{
+    height: auto;
+    margin: 10px 0px  auto;
+}
+.notes-list{
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: unset;
+    flex-wrap: wrap;
+    align-items: baseline;
+
+}
+
+.list-container{
+     margin: 0% auto; 
+    width:75%;
+    margin-top: 35px;
+    
+}
+
+
+
+.error-message{
+    color: red;
+    text-align: center;
+}
+
+.note-btn{
+    color:white;
+    background-color: #ea4335;
+    font-size: 20px;
+    font-weight: bolder;
+     width: 15%;
+     align-self: center;
+   
+}
+.card-tle{
+    color:#ea4335;
+    font-size: 20px;
+    font-weight: bolder;
+    text-decoration-line: underline;
+   
+}
+input, select, textarea{
+    font-family: 'Baloo Da', cursive;
+    font-weight: bold;
+    color: grey;
+}
+
+
+.card-str{
+   background-color: #f3eca9;
+   border-style: solid;
+    border-width: 1px;
+    border-color:darkgrey;
+}
+.card-cont{
+    font-size: 15px;
+    font-weight: bold;
+    color:#4285f4;
+ }
+
+* {
+    font-family: 'Baloo Da', cursive;
+    box-sizing: border-box;
+}
+.notes mat-expansion-panel{
+    border-radius: 10px
+}
+
+@media (max-width:640px){
+.notes{
+    width:90%;
+   
+    }
+
+
+}
+
+.mat-expansion-panel-header.mat-expanded:focus, .mat-expansion-panel-header.mat-expanded:hover{
+    background: none;
+}

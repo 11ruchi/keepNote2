@@ -1,7 +1,9 @@
 import { Component, ViewChild } from '@angular/core';
 import { FormControl, FormGroup, FormGroupDirective } from '@angular/forms';
-import { AuthenticationService } from 'app/services/authentication.service';
-import { RouterService } from 'app/services/router.service';
+// import { AuthenticationService } from 'app/services/authentication.service';
+// import { RouterService } from 'app/services/router.service';
+import { AuthenticationService } from '../services/authentication.service';
+import { RouterService } from '../services/router.service';
 
 
 @Component({

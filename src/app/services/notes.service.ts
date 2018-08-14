@@ -1,8 +1,10 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
-import { Note } from 'app/note';
+// import { Note } from 'app/note';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-import { AuthenticationService } from 'app/services/authentication.service';
+// import { AuthenticationService } from 'app/services/authentication.service';
+import { Note } from '../note';
+import { AuthenticationService } from './authentication.service';
 
 @Injectable()
 export class NotesService {

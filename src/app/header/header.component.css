@@ -3,17 +3,15 @@
 }
 
 .mat-toolbar.mat-primary.header{
-    background: hsl(136, 53%, 43%);
+    background: hsl(330, 89%, 32%);
     color: #fff;
     text-align: center;
     display: block;
     padding: 10px;
-    font-size: 40px; 
-}
+   
+    }
+    
 
-mat-sidenav{
-    background-color: hsl(136, 53%, 43%);    
-}
 .menu-name{
     color: #fff;
     background: hsl(136, 53%, 43%);
@@ -23,9 +21,6 @@ mat-sidenav{
     margin-top: 20px;
     margin-left: 20px;
 
-}
-.mat-nav-list{
-    margin-top: 20px;
 }
 
 .mat-list-item{

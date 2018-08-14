@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { Note } from 'app/note';
-import { NotesService } from 'app/services/notes.service';
+// import { Note } from 'app/note';
+import { NotesService } from '../services/notes.service';
+import { Note } from '../note';
+// import { NotesService } from 'app/services/notes.service';
 
 @Component({
   selector: 'app-dashboard',

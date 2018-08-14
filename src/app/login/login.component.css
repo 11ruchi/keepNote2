@@ -27,19 +27,19 @@
 .mat-card-title{
     font-weight: bolder;
     font-size: 20px;
-    color: hsl(136, 53%, 43%);
+    color: hsla(174, 71%, 3%, 0.452);
    
 }
 
 mat-label{
-     color: #4285f4;
+     color: #092552;
      font-weight: bolder;
      font-size: 15px;
 }
 
 .mat-button{
     
-    background-color: hsl(136, 53%, 43%);
+    background-color: hsl(29, 75%, 32%);
 }
 
 

@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+// import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatExpansionModule } from '@angular/material/expansion';
@@ -10,17 +10,19 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatCardModule } from '@angular/material/card';
 import { MatListModule } from '@angular/material/list';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
+// import { HeaderComponent } from './header/header.component';
 import { HttpClientModule } from '@angular/common/http';
-import { MatSidenavModule } from '@angular/material/sidenav';
+// import { MatSidenavModule } from '@angular/material/sidenav';
 import { RouterModule, Routes } from '@angular/router';
 import { LoginComponent } from './login/login.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { NotesService } from './services/notes.service';
 import { ReactiveFormsModule } from '@angular/forms';
 import { CanActivateRouteGuard } from './can-activate-route.guard';
-import { AuthenticationService } from 'app/services/authentication.service';
-import { RouterService } from 'app/services/router.service';
+import { AuthenticationService } from './services/authentication.service';
+import { RouterService } from './services/router.service';
+import { HeaderComponent } from './header/header.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 const appRoutes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -29,13 +31,7 @@ const appRoutes: Routes = [
 ];
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HeaderComponent,
-    LoginComponent,
-    DashboardComponent,
-
-  ],
+  declarations: [ AppComponent, HeaderComponent, LoginComponent, DashboardComponent],
   imports: [
     BrowserModule,
     FormsModule,
@@ -49,10 +45,10 @@ const appRoutes: Routes = [
     MatFormFieldModule,
     MatCardModule,
     MatListModule,
-    MatSidenavModule,
+    // MatSidenavModule,
     RouterModule.forRoot(
       appRoutes,
-      { enableTracing: false }
+      {enableTracing : false}
     )
   ],
   providers: [NotesService, CanActivateRouteGuard, AuthenticationService, RouterService],

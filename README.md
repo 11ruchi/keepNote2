@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Angular Assignment - Keep	Level 2
 	
 ## Objective  
@@ -76,3 +77,7 @@ npm run lint
 6. Evaluation will take around 5 mins to complete after which you need to refresh your browser and get the updated status  
 7. Watch out for your total score and detailed status on each test and eslint errors in the coloured blocks on the screen  
 8. Fix failing test cases as well as eslint errors and re-submit your solution (you may skip any eslint errors reported in the provided spec files)  
+=======
+# keepNote2
+KeepNote Assignment 2 
+>>>>>>> f7532fc89beb59df36c00ce2e704e6a202ac7b37
